@@ -1,0 +1,96 @@
+body {
+    margin:0px;
+    padding:0px;
+    background: #00000f; 
+    /* background-image: linear-gradient(#00000f,purple);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+* {
+    color: #fff;
+}
+
+main {
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main section:first-child {
+    text-align: center;
+    padding-top: 50px;
+}
+
+main section:last-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+main .right {
+    flex-direction: column;
+}
+
+main .right article {
+    margin-bottom: 60px;
+}
+
+main .right .btn {
+    width:200px;
+    opacity: 0.5;
+}
+
+aside {
+    width:50%;
+    margin-top:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+table {
+    width:450px;
+    height: 450px;
+    border-collapse: collapse;
+}
+
+table td {
+    width:150px;
+    height: 150px;
+    border:1px solid #fff;
+}
+
+
+table tr td:first-child {
+    border-left: none;
+}
+
+table tr td:last-child {
+    border-right: none;
+}
+
+table tr:first-child td {
+    border-top: none;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+table td button {
+    width:100%;
+    height: 100%;
+    background: none;
+    border:none;
+}
+
+
+.active {
+    opacity: 1!important;
+}
+
+.game-box {
+    font-size: 55px;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Tic Tac Toe Game</h1>
+            <p class="player-name-view">Play With Your Friends</p>
+        </section>
+        <section>
+            <aside class="left">
+                <article>
+                    <h1>Enter your name</h1>
+                    <div class="form-group">
+                        <label>Enter player name</label>
+                        <input placeholder="Enter here" type="text" class="form-control" id="playerFirst">
+                    </div>
+                    <div class="form-group">
+                        <label>Enter player name</label>
+                        <input placeholder="Enter here" type="text" class="form-control" id="playerSecond">
+                    </div>
+                    <div class="form-group">
+                        <button id="startGame" class="btn btn-dark btn-block btn-lg">Start game</button>
+                    </div>
+                </article>
+            </aside>
+            <aside class="right">
+                <article>
+                    <button class="btn playerFirstName active btn-success">Player First</button>
+                    <button class="btn playerSecondName btn-danger">Player Second</button>
+                </article>
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <button class="game-box"></button>
+                            </td>
+                            <td>
+                                <button class="game-box"></button>
+                            </td>
+                            <td>
+                                <button class="game-box"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="game-box"></button>
+                            </td>
+                            <td>
+                                <button class="game-box"></button>
+                            </td>
+                            <td>
+                                <button class="game-box"></button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <button class="game-box"></button>
+                            </td>
+                            <td>
+                                <button class="game-box"></button>
+                            </td>
+                            <td>
+                                <button class="game-box"></button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </aside>
+        </section>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
